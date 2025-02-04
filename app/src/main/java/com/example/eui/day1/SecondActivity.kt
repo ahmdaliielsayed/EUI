@@ -1,4 +1,4 @@
-package com.example.eui
+package com.example.eui.day1
 
 import android.os.Bundle
 import android.widget.TextView
@@ -6,6 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.eui.R
 
 class SecondActivity : AppCompatActivity() {
 
