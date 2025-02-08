@@ -12,21 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EUI"
         tools:targetApi="31">
-
-        <activity android:name=".day2.RecyclerViewActivity"
+        <activity
+            android:name=".day3.Day3Activity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".day2.RecyclerViewActivity"
+            android:exported="false" />
         <activity
             android:name=".day1.SecondActivity"
             android:exported="false" />
-
         <activity
             android:name=".day1.MainActivity"
             android:exported="false" />
